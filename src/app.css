@@ -1,0 +1,19 @@
+.app h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+.app-content {
+    height: 100%;
+    position: relative;
+    padding: 30px;
+}
+
+.app-content .content {
+    height: 30px;
+    position: absolute;
+    left: 40px;
+    transition: all linear 250ms;
+    border: 2px solid black;
+    text-align: center;
+}
